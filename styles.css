@@ -1,0 +1,40 @@
+body
+{
+    background-color: #eadbda;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 60px;
+    margin: 10px;
+}
+h2
+{
+    text-align: center;
+}
+img
+{
+    background-color: #79726E;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40%;
+    width: auto;
+}
+table, thead, tbody
+{
+    border-style: solid;
+    border-color: #754645;
+    text-align: center;
+    font-size: 120%;
+    font-family: cursive;
+    width: 100%;
+    height: 50%;
+}
+td
+{
+    border-style: dotted;
+    border-color: #754645;
+    
+}

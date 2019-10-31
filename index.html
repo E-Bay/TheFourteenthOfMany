@@ -1,18 +1,27 @@
 <html>
     <head>
-        <script src="https://pokeapi.co/api/v2/"></script>
-        <link href="index.css" type="text/css" rel="stylesheet"/>
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <link href="styles.css" type="text/css" rel="stylesheet" />
     </head>
 <body>
     <h1>Loading</h1>
+    <h2 id="click">Click the Pokemon Name for its Sprite</h2>
     <img src="imgs/pokemon_logo_PNG6.png">
-    <div id="typeNames">Put Search Bar Here</div>
-    <div id="PokeEx">Examples of interesting Pokemon</div>
-    <div id="PokeName">Puts Name of Pokemon Here</div>
-    <div id="PokeAbility">Puts Ability of Pokemon Here</div>
-    <div id="PokeType">Puts Type of Pokemon Here</div>
-    <div id="PokeStats">Puts List of Stats Here</div>
-    <div id="PokeMoves">Puts List of Moves Here</div>
-    <div id="PokeOther">Puts Height, Weight and Sprite Images Here</div>
+    <table>
+        <thead>
+            <th id="name">Names</th>
+            <th id="hp">Base HP</th>
+            <th id="atk">Base Attack</th>
+            <th id="def">Base Defence</th>
+            <th id="spatk">Base Special Attack</th>
+            <th id="spdef">Base Special Defence</th>
+            <th id="speed">Base Speed</th>
+            <th id="weight">Weight</th>
+            <th id="height">Height</th>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <script src="Poke.js"></script>
 </body>
 </html>
