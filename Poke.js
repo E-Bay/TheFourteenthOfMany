@@ -27,6 +27,7 @@ var makeTable = function(pokemon)
                 .data(pokemon)
                 .enter()
                 .append("tr");
+    row.append("td").text(function(d) {return d.id})
     row.append("td").text(function(d) {return d.name}).on("click", function(d)
     {
         var Array = [d]
