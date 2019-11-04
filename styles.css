@@ -23,7 +23,6 @@ img
 }
 table, thead, tbody
 {
-    border-style: solid;
     border-color: #754645;
     text-align: center;
     font-size: 120%;
@@ -33,7 +32,7 @@ table, thead, tbody
 }
 td
 {
-    border-style: dotted;
+    border-style: solid;
     border-color: #754645;
     
 }
